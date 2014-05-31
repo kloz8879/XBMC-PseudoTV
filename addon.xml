@@ -5,6 +5,9 @@
 	name="PseudoTV"
 	provider-name="Jason Anderson">
 
+	<requires>
+		<import addon="xbmc.python" version="2"/>
+	</requires>
 
 	<extension point="xbmc.python.script"
         defaultresolution="720p"
